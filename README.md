@@ -52,10 +52,12 @@ Compilação do Código
 Para compilar o código, utilize um compilador C, como o GCC. 
 
 Execute o seguinte comando no terminal:
-bash
-Copiar código
-gcc -o inventario inventario.c
-Executar o Programa
+
+1.bash
+2.Copiar código
+3.gcc -o inventario inventario.c
+4.Executar o Programa
+
 Após a compilação, execute o programa:
 
 bash
@@ -64,8 +66,11 @@ Copiar código
 
 Requisitos
 Compilador C (por exemplo, GCC)
-Ambiente de execução para programas C
+IDE para compilar programas em linguagem C
+
+
 Contato
+
 Para dúvidas ou sugestões, entre em contato pelos e-mails:
 
 Contato Para dúvidas ou sugestões, entre em contato pelo e-mail: luanccandi@gmail.com / yurilucasoishi@gmail.com / tonmenezes21@gmail.com
