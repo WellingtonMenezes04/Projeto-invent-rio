@@ -1,25 +1,70 @@
-Projeto realizado em C, com os integrantes Wellington de Menezes Paim (RA: 24.124.083-7), Luan Garcia Candido (RA: 24.124.019-1), Yuri Lucas Oishi (RA: 24.124.082-9) contando com o auxilio do git e git hub.
-
 Sistema de Gerenciamento de Inventário de Loja
-Este é um programa desenvolvido em C que permite o gerenciamento de inventário de uma loja. Ele oferece funcionalidades como adicionar, listar, vender, buscar, remover e atualizar produtos, além de gerar relatórios de estoque e registrar lucros por venda.
+
+Descrição do Projeto
+Este é um sistema de gerenciamento de inventário desenvolvido em C que permite a gestão de produtos em uma loja física e on-line, ele gerencia sua loja por categoria do seu produto, fornecendo informaçôes de quanto está ganhando em um certo produto. O sistema inclui funcionalidades para adicionar, listar produtos, vender, fornecer relatorio de estoque, remover, buscar e atualizar produtos, além de e controlar lucros diários das suas vendas. 
+
+O projeto foi desenvolvido como parte dos estudos dos alunos:
+Wellington de Menezes Paim (RA: 24.124.083-7)
+Luan Garcia Candido (RA: 24.124.019-1)
+Yuri Lucas Oishi (RA: 24.124.082-9)
+
+PATH DO PROJETO
+
+O programa solicitará ao usuário seu nome e seu contato, para um melhor entendimento do seus dados da sua loja.
+
+Menu de Operações
+Após iniciar o programa, o usuário pode selecionar uma das seguintes opções:
+
+Adicionar Produto
+Listar Produtos por Categoria
+Vender Produto
+Gerar Relatório de Estoque
+Buscar Produto
+Remover Produto
+Atualizar Produto
+Controle de Lucro Diário
+Sair
+
+Estrutura de Arquivos
+O sistema armazena dados de produtos em um arquivo binário (produtos.bin) para persistência do inventário entre execuções. Ele também gera um arquivo de texto (historico_precos.txt) para registrar o histórico de preços dos produtos e um arquivo de relatório (relatorio_estoque.txt) para o relatório de estoque.
 
 Funcionalidades
-Adicionar Produto: Permite cadastrar novos produtos no inventário, registrando nome, preço de custo, preço de venda, quantidade e categoria. Também registra o histórico de preços no arquivo historico_precos.txt.
+O sistema é dividido nas seguintes funcionalidades:
 
-Listar Produtos por Categoria: Lista todos os produtos de uma categoria especificada, mostrando o nome, preço e quantidade de cada produto.
+Cadastro de Produto: Permite adicionar produtos ao inventário, incluindo informações como nome, preço de custo, preço de venda, quantidade e categoria.
 
-Vender Produto: Realiza uma venda para um produto específico, subtraindo a quantidade vendida do estoque e calculando o lucro da transação. As informações de cada venda são registradas para o cálculo de lucro diário.
+Listagem por Categoria: Lista todos os produtos de uma determinada categoria.
+EXEMPLO - nome: bike, preço de custo: 200, preço de venda: 399, quantidade: 5, categoria: veiculo; Nessa função se você colocar veiculo aparece todos os dados da bike ou de outros produtos que colocou nessa categoria.
 
-Gerar Relatório de Estoque: Gera um relatório completo do inventário em um arquivo de texto (relatorio_estoque.txt), incluindo detalhes de cada produto como nome, preço de custo, preço de venda, quantidade e categoria.
+Venda de Produto: Registra a venda de um produto, atualiza o estoque e calcula o lucro.
 
-Buscar Produto: Busca um produto específico pelo nome e exibe suas informações, incluindo preço, quantidade e categoria.
+Relatório de Estoque: Gera um relatório de todos os produtos no estoque, com informações detalhadas.
 
-Remover Produto: Permite remover um produto do inventário.
+Busca de Produto: Permite buscar um produto específico pelo nome.
 
-Atualizar Produto: Atualiza informações de um produto existente, como preço de custo, preço de venda e quantidade.
+Remoção de Produto: Remove um produto do inventário.
 
-Controle de Lucro Diário: Exibe o total de lucro gerado pelas vendas realizadas no dia, além de uma lista de produtos vendidos, lucro e data da venda.
+Atualização de Produto: Atualiza as informações de um produto existente, como preço e quantidade.
 
-Cadastrar Fornecedor: Permite cadastrar um fornecedor, armazenando o nome e o contato.
+Controle de Lucro Diário: Calcula o lucro diário com base nas vendas realizadas.
 
-Salvar e Carregar Inventário: O inventário é salvo em um arquivo binário (produtos.bin) e carregado ao iniciar o programa, permitindo persistência dos dados.
+Compilação do Código
+Para compilar o código, utilize um compilador C, como o GCC. Execute o seguinte comando no terminal:
+
+bash
+Copiar código
+gcc -o inventario inventario.c
+Executar o Programa
+Após a compilação, execute o programa:
+
+bash
+Copiar código
+./inventario
+
+Requisitos
+Compilador C (por exemplo, GCC)
+Ambiente de execução para programas C
+Contato
+Para dúvidas ou sugestões, entre em contato pelos e-mails:
+
+Contato Para dúvidas ou sugestões, entre em contato pelo e-mail: luanccandi@gmail.com / yurilucasoishi@gmail.com / tonmenezes21@gmail.com
