@@ -12,6 +12,7 @@ PATH DO PROJETO
 O programa solicitará ao usuário seu nome e seu contato, para um melhor entendimento do seus dados da sua loja.
 
 MENU DAS OPERAÇÕES
+
 Após iniciar o programa, o usuário pode selecionar uma das seguintes opções:
 
 1.Adicionar Produto
