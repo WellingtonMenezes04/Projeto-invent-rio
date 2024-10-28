@@ -1,3 +1,5 @@
+Projeto realizado em C, com os integrantes Wellington de Menezes Paim (RA: 24.124.083-7), Luan Garcia Candido (RA: 24.124.019-1), Yuri Lucas Oishi (RA: 24.124.082-9) contando com o auxilio do git e git hub.
+
 Sistema de Gerenciamento de Inventário de Loja
 Este é um programa desenvolvido em C que permite o gerenciamento de inventário de uma loja. Ele oferece funcionalidades como adicionar, listar, vender, buscar, remover e atualizar produtos, além de gerar relatórios de estoque e registrar lucros por venda.
 
