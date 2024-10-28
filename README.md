@@ -15,15 +15,15 @@ O programa solicitará ao usuário seu nome e seu contato, para um melhor entend
 Menu de Operações
 Após iniciar o programa, o usuário pode selecionar uma das seguintes opções:
 
-Adicionar Produto
-Listar Produtos por Categoria
-Vender Produto
-Gerar Relatório de Estoque
-Buscar Produto
-Remover Produto
-Atualizar Produto
-Controle de Lucro Diário
-Sair
+1.Adicionar Produto
+2.Listar Produtos por Categoria
+3.Vender Produto
+4.Gerar Relatório de Estoque
+5.Buscar Produto
+6.Remover Produto
+7.Atualizar Produto
+8.Controle de Lucro Diário
+9.Sair
 
 Estrutura de Arquivos
 O sistema armazena dados de produtos em um arquivo binário (produtos.bin) para persistência do inventário entre execuções. Ele também gera um arquivo de texto (historico_precos.txt) para registrar o histórico de preços dos produtos e um arquivo de relatório (relatorio_estoque.txt) para o relatório de estoque.
@@ -68,9 +68,5 @@ Requisitos
 Compilador C (por exemplo, GCC)
 IDE para compilar programas em linguagem C
 
-
-Contato
-
-Para dúvidas ou sugestões, entre em contato pelos e-mails:
 
 Contato Para dúvidas ou sugestões, entre em contato pelo e-mail: luanccandi@gmail.com / yurilucasoishi@gmail.com / tonmenezes21@gmail.com
