@@ -33,9 +33,12 @@ Após iniciar o programa, o usuário pode selecionar uma das seguintes opções:
 
 9.Sair
 
+
+
 ESTRUTURA DE ARQUIVOS
 
 O sistema armazena dados de produtos em um arquivo binário (produtos.bin) para persistência do inventário entre execuções. Ele também gera um arquivo de texto (historico_precos.txt) para registrar o histórico de preços dos produtos e um arquivo de relatório (relatorio_estoque.txt) para o relatório de estoque.
+
 
 FUNCIONALIDADES
 
@@ -75,6 +78,7 @@ Atualiza as informações de um produto existente, como preço e quantidade.
 
 Calcula o lucro diário com base nas vendas realizadas.
 
+
 COMPILAÇÃO DO CÓDIGO
 
 Para compilar o código, utilize um compilador C, como o GCC. 
@@ -98,6 +102,7 @@ Copiar código
 Requisitos
 Compilador C (por exemplo, GCC)
 IDE para compilar programas em linguagem C
+
 
 CONTATO
 
