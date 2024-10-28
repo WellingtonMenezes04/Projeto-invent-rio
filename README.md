@@ -49,8 +49,9 @@ Atualização de Produto: Atualiza as informações de um produto existente, com
 Controle de Lucro Diário: Calcula o lucro diário com base nas vendas realizadas.
 
 Compilação do Código
-Para compilar o código, utilize um compilador C, como o GCC. Execute o seguinte comando no terminal:
+Para compilar o código, utilize um compilador C, como o GCC. 
 
+Execute o seguinte comando no terminal:
 bash
 Copiar código
 gcc -o inventario inventario.c
